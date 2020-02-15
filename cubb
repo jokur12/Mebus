@@ -1,0 +1,25 @@
+git clone https://github.com/Mebus/cupp.git
+
+cd CUPP
+
+python cupp.py -i
+
+git clone https://github.com/thelinuxchoice/instashell.git
+
+apt-get install tor
+
+service tor start
+
+cd instashell
+
+chmod +x install.sh
+
+./install.sh
+
+chmod +x instashell.sh
+
+./instashell.sh
+
+
+
+
